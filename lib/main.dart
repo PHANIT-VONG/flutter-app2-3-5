@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/pages/button_widget.dart';
+import 'package:flutter_application_2/pages/list_widget.dart';
+import 'package:flutter_application_2/pages/stack_widget.dart';
 import 'package:flutter_application_2/pages/test_statefull.dart';
 import 'package:flutter_application_2/pages/textfield_widget.dart';
 import 'pages/main_page.dart';
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TextFieldWidget(),
+      home: const StackWidget(),
     );
   }
 }
